@@ -10,11 +10,11 @@ if(isset($_GET['page'])){
 
 // Default Data
 if(!isset($_SESSION['name'])){
-    $_SESSION['name'] = "Rengaraja";
+    $_SESSION['name'] = " ";
 }
 
 if(!isset($_SESSION['email'])){
-    $_SESSION['email'] = "rengaraja@gmail.com";
+    $_SESSION['email'] = "";
 }
 
 if(!isset($_SESSION['phone'])){
